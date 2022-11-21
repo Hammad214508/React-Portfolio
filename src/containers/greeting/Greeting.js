@@ -13,7 +13,10 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text">Hello 👋.</h1>
+              <h1 className="greeting-text">
+                Hello <span className="blog-title-emoji">👋</span>.
+              </h1>
+
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
@@ -23,7 +26,7 @@ export default function Greeting(props) {
                   Hammad Muhammad Mehmood.
                 </span>
                 <br></br>
-                  Full Stack Software Engineer at The Hut Group
+                Full Stack Software Engineer at The Hut Group
               </p>
               <SocialMedia />
             </div>

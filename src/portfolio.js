@@ -3,10 +3,9 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the default cursor
+  useCustomCursor: false, // Change this to false if you want the default cursor
   googleTrackingID: "UA-174238252-2",
 };
-
 
 // Projects Page
 const projectsHeader = {
@@ -351,8 +350,4 @@ const projects = {
   ],
 };
 
-export {
-  settings,
-  projectsHeader,
-  projects,
-};
+export { settings, projectsHeader, projects };

@@ -15,18 +15,23 @@ function THGCard(props) {
         <img
           className="experience-card-logo"
           src={require(`../../assets/images/thg_logo.png`)}
+          alt="THG company logo"
         />
       </div>
       <div className="experience-card-body-div">
         <div className="experience-card-header-div">
           <div className="experience-card-heading-left">
-            <a href="https://www.thg.com/"
+            <a
+              href="https://www.thg.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-                <h3 className="experience-card-title" style={{ color: theme.text }}>
-                  The Hut Group (THG)
-                </h3>
+              <h3
+                className="experience-card-title"
+                style={{ color: theme.text }}
+              >
+                The Hut Group (THG)
+              </h3>
             </a>
             <p
               className="experience-card-company"
@@ -40,10 +45,9 @@ function THGCard(props) {
             >
               Graduate Software Engineer
             </p>
-           
           </div>
           <div className="experience-card-heading-right">
-          <p
+            <p
               className="experience-card-location"
               style={{ color: theme.secondaryText }}
             >
@@ -67,10 +71,17 @@ function THGCard(props) {
           className="experience-card-description"
           style={{ color: theme.text }}
         >
-          Coordinating a greenfield project to rebuild the marketing SaaS platform. I  have meeting wih UX and product manager to discuss requiremenets and 
-          I have taken the role of the Scrum Master in the backend work, creating and managing the Jira board tickets which removed ambiguity around 
-          requirements and improved new sprint estimations. I have implemented core features of the MVP doing both, the frontend and backend working using Java and React.
-          I also have the line management duties for an intern, I have provided the training required to fill the missing knowledge in order to do the day-to-day work, been setting up his objectives, and in charge of assigning work to him.
+          Coordinating a greenfield project to rebuild the marketing SaaS
+          platform. I have meeting wih UX and product manager to discuss
+          requiremenets and I have taken the role of the Scrum Master in the
+          backend work, creating and managing the Jira board tickets which
+          removed ambiguity around requirements and improved new sprint
+          estimations. I have implemented core features of the MVP doing both,
+          the frontend and backend working using Java and React. I also have the
+          line management duties for an intern, I have provided the training
+          required to fill the missing knowledge in order to do the day-to-day
+          work, been setting up his objectives, and in charge of assigning work
+          to him.
         </p>
       </div>
     </div>
