@@ -14,7 +14,11 @@ export default function Greeting(props) {
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text">
-                Hello <span className="blog-title-emoji">👋</span>.
+                Hello{" "}
+                <span className="blog-title-emoji" role="img" aria-label="Wave">
+                  👋
+                </span>
+                .
               </h1>
 
               <p

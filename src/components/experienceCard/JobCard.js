@@ -16,28 +16,29 @@ function JobCard(props) {
         <img
           className="experience-card-logo"
           src={require(`../../assets/images/${job.logo}`)}
+          alt={`Logo for ${job.company}`}
         />
       </div>
       <div className="experience-card-body-div">
         <div className="experience-card-header-div">
           <div className="experience-card-heading-left">
-            <a href={job.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-                <h3 className="experience-card-title" style={{ color: theme.text }}>
-                  {job.company} 
-                </h3>
+            <a href={job.url} target="_blank" rel="noopener noreferrer">
+              <h3
+                className="experience-card-title"
+                style={{ color: theme.text }}
+              >
+                {job.company}
+              </h3>
             </a>
             <p
               className="experience-card-company"
               style={{ color: theme.secondaryText }}
             >
-               {job.title} 
+              {job.title}
             </p>
           </div>
           <div className="experience-card-heading-right">
-          <p
+            <p
               className="experience-card-location"
               style={{ color: theme.secondaryText }}
             >
