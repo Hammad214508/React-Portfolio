@@ -67,6 +67,7 @@
 .repo-details {
   display: flex;
   flex-direction: row;
+  /* margin-top: 16px; */
 }
 
 .repo-creation-date {

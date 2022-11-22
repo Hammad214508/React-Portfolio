@@ -100,7 +100,7 @@ function Header(props) {
                 About
               </NavLink>
             </li>
-            {/* <li>
+            <li>
               <NavLink
                 className="projects"
                 to="/projects"
@@ -110,7 +110,7 @@ function Header(props) {
               >
                 Projects
               </NavLink>
-            </li> */}
+            </li>
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>

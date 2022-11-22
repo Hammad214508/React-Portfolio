@@ -5,8 +5,13 @@ import { ThemeProvider } from "styled-components";
 import { themes } from "./theme";
 import { GlobalStyles } from "./global";
 import { CursorProvider } from "react-cursor-custom";
-import { settings } from "./portfolio";
 import ReactGA from "react-ga";
+
+const settings = {
+  isSplash: true, // Change this to true if you want to use the splash screen.
+  useCustomCursor: false, // Change this to false if you want the default cursor
+  googleTrackingID: "UA-174238252-2",
+};
 
 function App() {
   useEffect(() => {

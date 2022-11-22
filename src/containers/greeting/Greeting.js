@@ -14,13 +14,12 @@ export default function Greeting(props) {
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text">
-                Hello{" "}
+                Hello
                 <span className="blog-title-emoji" role="img" aria-label="Wave">
                   👋
                 </span>
                 .
               </h1>
-
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
