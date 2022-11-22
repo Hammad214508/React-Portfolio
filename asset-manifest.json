@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.2f3d1489.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.2490c2f4.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.2490c2f4.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.bf834521.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.e2395c74.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.e2395c74.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.be668ddd.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.be668ddd.js.map",
-    "static/js/2.230d4b5d.chunk.js": "/React-Portfolio/static/js/2.230d4b5d.chunk.js",
-    "static/js/2.230d4b5d.chunk.js.map": "/React-Portfolio/static/js/2.230d4b5d.chunk.js.map",
+    "static/js/2.c78fd910.chunk.js": "/React-Portfolio/static/js/2.c78fd910.chunk.js",
+    "static/js/2.c78fd910.chunk.js.map": "/React-Portfolio/static/js/2.c78fd910.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.1fe9ea57b52ae0dff6bddd6446490938.js": "/React-Portfolio/precache-manifest.1fe9ea57b52ae0dff6bddd6446490938.js",
+    "precache-manifest.78f97234130a8d2125adb0099d09d408.js": "/React-Portfolio/precache-manifest.78f97234130a8d2125adb0099d09d408.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
-    "static/css/main.2f3d1489.chunk.css.map": "/React-Portfolio/static/css/main.2f3d1489.chunk.css.map",
-    "static/js/2.230d4b5d.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.230d4b5d.chunk.js.LICENSE.txt",
+    "static/css/main.bf834521.chunk.css.map": "/React-Portfolio/static/css/main.bf834521.chunk.css.map",
+    "static/js/2.c78fd910.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.c78fd910.chunk.js.LICENSE.txt",
     "static/media/index.css": "/React-Portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/bauddhikgeeks-transparent.png": "/React-Portfolio/static/media/bauddhikgeeks-transparent.074c759b.png",
     "static/media/bauddhikgeeks.png": "/React-Portfolio/static/media/bauddhikgeeks.f2d490dc.png",
@@ -52,8 +52,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.be668ddd.js",
-    "static/js/2.230d4b5d.chunk.js",
-    "static/css/main.2f3d1489.chunk.css",
-    "static/js/main.2490c2f4.chunk.js"
+    "static/js/2.c78fd910.chunk.js",
+    "static/css/main.bf834521.chunk.css",
+    "static/js/main.e2395c74.chunk.js"
   ]
 }
