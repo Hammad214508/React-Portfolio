@@ -6,6 +6,7 @@ const socialMediaLinks = {
   github: "https://github.com/Hammad214508",
   linkedin: "https://www.linkedin.com/in/hammad-muhammad-mehmood-7460a0150/",
   gmail: "hammadmuhammad15@gmail.com",
+  resume: "https://mycv1.s3.eu-west-2.amazonaws.com/CV.pdf",
 };
 
 export default function socialMedia() {
@@ -36,6 +37,15 @@ export default function socialMedia() {
         rel="noopener noreferrer"
       >
         <i className="fab fa-google"></i>
+        <span></span>
+      </a>
+      <a
+        href={socialMediaLinks.resume}
+        className="icon-button resume"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fas fa-file-alt"></i>
         <span></span>
       </a>
     </div>

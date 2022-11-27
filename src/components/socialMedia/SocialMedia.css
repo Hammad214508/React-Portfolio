@@ -47,14 +47,14 @@
   box-shadow: 0 5px 15px #333;
 }
 
-.gitlab i {
+.resume i {
+  color: #333;
   background-color: #ffcc52;
   transition: all 0.2s ease-in-out;
 }
 
-.gitlab i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #333;
+.resume i:hover {
+  box-shadow: 0 5px 15px #ffcc52;
 }
 
 .google i {
@@ -65,26 +65,6 @@
 .google i:hover {
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px #ea4335;
-}
-
-.twitter i {
-  background-color: #1da1f2;
-  transition: all 0.2s ease-in-out;
-}
-
-.twitter i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #1da1f2;
-}
-
-.instagram i {
-  background-color: #e4405f;
-  transition: all 0.2s ease-in-out;
-}
-
-.instagram i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #e4405f;
 }
 
 /* Media Query */
