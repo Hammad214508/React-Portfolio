@@ -29,7 +29,7 @@ export default function Greeting(props) {
                   Hammad Muhammad Mehmood.
                 </span>
                 <br></br>
-                Full Stack Software Engineer at The Hut Group
+                Full Stack Software Engineer
               </p>
               <SocialMedia />
             </div>

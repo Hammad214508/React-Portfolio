@@ -22,7 +22,12 @@ function JobCard(props) {
       <div className="experience-card-body-div">
         <div className="experience-card-header-div">
           <div className="experience-card-heading-left">
-            <a href={job.url} target="_blank" rel="noopener noreferrer">
+            <a
+              href={job.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
               <h3
                 className="experience-card-title"
                 style={{ color: theme.text }}

@@ -25,6 +25,7 @@ function THGCard(props) {
               href="https://www.thg.com/"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
             >
               <h3
                 className="experience-card-title"
