@@ -74,7 +74,7 @@ function THGCard(props) {
         >
           Coordinating a greenfield project to rebuild the marketing SaaS
           platform. I have meeting wih UX and product manager to discuss
-          requiremenets and I have taken the role of the Scrum Master in the
+          requirements and I have taken the role of the Scrum Master in the
           backend work, creating and managing the Jira board tickets which
           removed ambiguity around requirements and improved new sprint
           estimations. I have implemented core features of the MVP doing both,
