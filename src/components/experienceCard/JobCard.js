@@ -57,12 +57,16 @@ function JobCard(props) {
             </p>
           </div>
         </div>
-        <p
+        <div
           className="experience-card-description"
           style={{ color: theme.text }}
         >
-          {job.description}
-        </p>
+          <ul style={{ padding: "10px" }}>
+            {job.description.map((bulletPoint) => {
+              return <li>{bulletPoint}</li>;
+            })}
+          </ul>
+        </div>
       </div>
     </div>
   );
