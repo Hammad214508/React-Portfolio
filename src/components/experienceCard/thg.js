@@ -72,17 +72,32 @@ function THGCard(props) {
           className="experience-card-description"
           style={{ color: theme.text }}
         >
-          Coordinating a greenfield project to rebuild the marketing SaaS
-          platform. I have meeting wih UX and product manager to discuss
-          requirements and I have taken the role of the Scrum Master in the
-          backend work, creating and managing the Jira board tickets which
-          removed ambiguity around requirements and improved new sprint
-          estimations. I have implemented core features of the MVP doing both,
-          the frontend and backend working using Java and React. I also have the
-          line management duties for an intern, I have provided the training
-          required to fill the missing knowledge in order to do the day-to-day
-          work, been setting up his objectives, and in charge of assigning work
-          to him.
+          <ul style={{ padding: "10px" }}>
+            <li>
+              Created a frontend feature that allowed the marketing team to
+              create and send push notifications to targeted customers which
+              resulted in higher click rate and generated more revenue.
+            </li>
+            <li>
+              Coordinating a greenfield project to rebuild the marketing SaaS
+              platform. I implemented core features of the MVP, doing both the
+              frontend and backend work required using Java and React.
+            </li>
+            <li>
+              Taken on the role of the Scrum Master for the BE work. Meeting
+              with UX and the product manager to discuss the requirements,
+              creating and managing the Jira board tickets which removed
+              ambiguity around the task and improved new sprint estimations.
+            </li>
+            <li>
+              Line manager for an intern. Provided training to fill the missing
+              knowledge required to do the job, set up his objectives, and in
+              charge of assigning work to him.
+            </li>
+            <li>
+              Worked on various new features to improve the ECRM platform.
+            </li>
+          </ul>
         </p>
       </div>
     </div>
