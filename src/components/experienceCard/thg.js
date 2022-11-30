@@ -68,7 +68,7 @@ function THGCard(props) {
             </p>
           </div>
         </div>
-        <p
+        <div
           className="experience-card-description"
           style={{ color: theme.text }}
         >
@@ -98,7 +98,7 @@ function THGCard(props) {
               Worked on various new features to improve the ECRM platform.
             </li>
           </ul>
-        </p>
+        </div>
       </div>
     </div>
   );
