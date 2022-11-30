@@ -81,6 +81,24 @@ const projects = [
     ],
   },
   {
+    id: "5",
+    name: "Bitcoin Whale Alert",
+    url: "https://github.com/Hammad214508/Whale-Alert",
+    description:
+      "Tracks a bitcoin address' activity and gives real time updates about its transactions. It " +
+      "uses BotFather to notify on Telegram.",
+    languages: [
+      {
+        name: "Python",
+        iconifyClass: "logos-python",
+      },
+      {
+        name: "Telegram",
+        iconifyClass: "logos:telegram",
+      },
+    ],
+  },
+  {
     id: "2",
     name: "eVeg store",
     url: "https://github.com/Hammad214508/Shopping-System",
@@ -147,24 +165,6 @@ const projects = [
       {
         name: "Python",
         iconifyClass: "logos-python",
-      },
-    ],
-  },
-  {
-    id: "5",
-    name: "Bitcoin Whale Alert",
-    url: "https://github.com/Hammad214508/Whale-Alert",
-    description:
-      "Tracks a bitcoin address' activity and gives real time updates about its transactions. It webcraps BitInfoCharts every 5 minutes " +
-      "and uses BotFather to notify on Telegram.",
-    languages: [
-      {
-        name: "Python",
-        iconifyClass: "logos-python",
-      },
-      {
-        name: "Telegram",
-        iconifyClass: "logos:telegram",
       },
     ],
   },
