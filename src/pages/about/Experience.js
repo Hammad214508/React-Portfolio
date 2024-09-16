@@ -33,7 +33,10 @@ function Experience(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I am a Computer Science graduate from the University Warwick currenty working as a Full Stack Software Engineer at THG. I love doing projects on my own to make an impact in the real world using different tools and programming languages.
+                I am a Computer Science graduate from the University Warwick
+                currenty working as a Software Engineer at Sainsbury's. I love
+                doing projects on my own to make an impact in the real world
+                using different tools and programming languages.
               </p>
             </div>
           </div>

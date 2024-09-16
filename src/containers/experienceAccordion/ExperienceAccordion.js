@@ -9,6 +9,34 @@ import { DarkTheme, LightTheme, ThemeProvider } from "baseui";
 function ExperienceAccordion(props) {
   const theme = props.theme;
 
+  const sainsburys = {
+    company: "Sainsbury's",
+    logo: "sainsburys.jpeg",
+    url: "http://www.sainsburys.co.uk",
+    title: "Software Engineer",
+    location: "Manchester, UK",
+    duration: "Aug 2024 - present",
+    borderColor: "#FBBD18",
+    description: [],
+  };
+
+  const thg = {
+    company: "The Hut Group (THG",
+    logo: "thg_logo.png",
+    url: "https://www.thg.com/",
+    title: "Full Stack Software Engineer",
+    location: "Manchester, UK",
+    duration: "Aug 2021 - Aug 2024",
+    borderColor: "#196acf",
+    description: [
+      "Developed a highly scalable multitenant Microservice using Java and Springboot, leveraging a robust architecture that enables seamless product sales within Meta platforms. With this architecture, setting up new sites takes just a week, allowing for rapid expansion. To date, the system has facilitated over 7000 orders across 8 sites, with ongoing integration for additional sites currently underway.",
+      "Led the backend work for a high-impact greenfield project for the complete reconstruction of a marketing SAAS platform for 300+ websites that will be sending over 12 billion emails a year.",
+      "Served as Scrum Master, facilitating cross-functional collaboration between UX, product managers, and development teams to analyze requirements and streamline project execution. Implemented efficient sprint planning methodologies resulting in improved clarity and accuracy in project estimation.",
+      "Provided valuable training and mentorship to junior engineers, contributing to their professional growth. Completed an internal management course, leading to the management of direct reports. Successfully assigned tasks and established clear objectives to enhance team productivity.",
+      "Proficiently executed full-stack development using Java and React, ensuring timely delivery of crucial MVP features for client demos. Conducted thorough code reviews to identify and resolve issues, preventing technical debt and maintaining high coding standards.",
+    ],
+  };
+
   const faihire = {
     company: "Fairhire",
     logo: "fairhire_logo.png",
@@ -18,12 +46,10 @@ function ExperienceAccordion(props) {
     duration: "Jun 2020 - Aug 2020",
     borderColor: "#ee3c26",
     description: [
-      "Worked as a Full-Stack Software Engineer Intern using LAMP stack and basics of AWS.",
-      "Automated the manual process of adding articles summaries to the live website, which required a release every few " +
-        "days, to instead read from a database and dynamically render using jQuery.",
-      "Built a platform for hiring candidates in rural regions with poor network availability, reduced the number of " +
-        "requests made to the backend by 60%",
-      "Trained other interns to ensure they understood the overall architecture and followed good coding practices.",
+      "Worked as a Full-Stack Software Engineer using LAMP stack and AWS.",
+      "Streamlined operations by automating the manual process of adding article summaries to the live website. Replacing the need for frequent releases, I implemented a solution that utilized a database and jQuery for dynamic rendering. This improved efficiency, saving time and effort while enabling real-time updates to the website.",
+      "Built a platform for hiring candidates in rural regions with poor network availability, reduced the number of requests made to the backend by 60 percent.",
+      "Returned the following summer to provide comprehensive training to fellow interns, focusing on understanding the overall architecture and promoting good coding practices. Empowered them to confidently fulfill their job responsibilities and contribute effectively to projects.",
     ],
   };
 
@@ -107,7 +133,8 @@ function ExperienceAccordion(props) {
             title="Work Experience"
             key="Work Experience"
           >
-            <THGCard theme={theme} />
+            <JobCard theme={theme} job={sainsburys} />
+            <JobCard theme={theme} job={thg} />
             <JobCard theme={theme} job={faihire} />
             <JobCard theme={theme} job={codecamp} />
             <JobCard theme={theme} job={peaceoneday} />
