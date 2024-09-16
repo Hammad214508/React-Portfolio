@@ -1,5 +1,4 @@
 import React from "react";
-import THGCard from "../../components/experienceCard/thg.js";
 import JobCard from "../../components/experienceCard/JobCard.js";
 import EducationCard from "../../components/experienceCard/EducationCard.js";
 import "./ExperienceAccordion.css";
