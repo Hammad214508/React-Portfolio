@@ -91,7 +91,7 @@ function ExperienceAccordion(props) {
     duration: "Oct 2018 - Apr 2019",
     borderColor: "#ee3c26",
     description: [
-      "Tutored A-Levels, GCSE's and international students. Got a wide curriculum knowledge as different students had different specifications. ",
+      "Tutored A-Levels, GCSE's and international students. Got a wide curriculum knowledge as different students had different specifications.",
       "Researched areas of the subject I was not so confident about and learnt to be more organised and patient.",
     ],
   };
