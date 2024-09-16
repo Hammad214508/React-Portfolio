@@ -166,6 +166,40 @@ const projects = [
         name: "Python",
         iconifyClass: "logos-python",
       },
+      {
+        name: "Reddit",
+        iconifyClass: "logos:reddit-icon",
+      },
+    ],
+  },
+  {
+    id: "16",
+    name: "Portfolio Tracker",
+    url: "https://github.com/Hammad214508/Portfolio-Tracker",
+    description:
+      "Crypto portfolio tracker to have everything one view, with additional " +
+      "features allowing it to be written into a daily CSV report as well as notifying you on telegram in your phone.",
+    languages: [
+      {
+        name: "Python",
+        iconifyClass: "logos-python",
+      },
+      {
+        name: "Telegram",
+        iconifyClass: "logos:telegram",
+      },
+      {
+        name: "Coinbase",
+        iconifyClass: "token-branded:coinbase",
+      },
+      {
+        name: "Binance",
+        iconifyClass: "simple-icons:binance",
+      },
+      {
+        name: "Kraken",
+        iconifyClass: "token-branded:kraken",
+      },
     ],
   },
   {
